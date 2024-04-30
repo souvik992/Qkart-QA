@@ -1,0 +1,523 @@
+[1714507255.997][INFO]: Starting ChromeDriver 123.0.6312.86 (9b72c47a053648d405376c5cf07999ed626728da-refs/branch-heads/6312@{#698}) on port 5257
+[1714507255.997][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1714507256.325][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "goog:loggingPrefs": {
+         "browser": "ALL",
+         "driver": "ALL"
+      }
+   }
+}
+[1714507256.325][INFO]: Browser search. Trying... /Users/souvikgayen/Downloads/chromedriver-mac-x64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.325][INFO]: Browser search. Trying... /Users/souvikgayen/Downloads/chromedriver-mac-x64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.325][INFO]: Browser search. Trying... /Users/souvikgayen/Downloads/chromedriver-mac-x64/Google Chrome.app/Contents/MacOS/Google Chrome
+[1714507256.325][INFO]: Browser search. Trying... /Users/souvikgayen/Downloads/chromedriver-mac-x64/Chromium.app/Contents/MacOS/Chromium
+[1714507256.325][INFO]: Browser search. Trying... /Users/souvikgayen/Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.325][INFO]: Browser search. Trying... /Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.325][INFO]: Browser search. Trying... /Library/Frameworks/Python.framework/Versions/3.12/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.325][INFO]: Browser search. Trying... /Library/Frameworks/Python.framework/Versions/3.9/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.325][INFO]: Browser search. Trying... /usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.325][INFO]: Browser search. Trying... /usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.325][INFO]: Browser search. Trying... /bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.325][INFO]: Browser search. Trying... /usr/sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.325][INFO]: Browser search. Trying... /sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.325][INFO]: Browser search. Trying... /Library/Apple/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.325][INFO]: Browser search. Trying... /Library/Frameworks/Python.framework/Versions/3.12/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.325][INFO]: Browser search. Trying... /Library/Frameworks/Python.framework/Versions/3.9/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.326][INFO]: Browser search. Trying... /Users/souvikgayen/Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.326][INFO]: Browser search. Trying... /Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.326][INFO]: Browser search. Trying... /Library/Frameworks/Python.framework/Versions/3.12/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.326][INFO]: Browser search. Trying... /Library/Frameworks/Python.framework/Versions/3.9/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.326][INFO]: Browser search. Trying... /usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.326][INFO]: Browser search. Trying... /usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.326][INFO]: Browser search. Trying... /bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.326][INFO]: Browser search. Trying... /usr/sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.326][INFO]: Browser search. Trying... /sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.326][INFO]: Browser search. Trying... /Library/Apple/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.326][INFO]: Browser search. Trying... /Library/Frameworks/Python.framework/Versions/3.12/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.326][INFO]: Browser search. Trying... /Library/Frameworks/Python.framework/Versions/3.9/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1714507256.326][INFO]: Browser search. Trying... /Users/souvikgayen/Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+[1714507256.326][INFO]: Browser search. Trying... /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+[1714507256.326][INFO]: Browser search. Found at  /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+[1714507256.327][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1714507256.327][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1714507256.328][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1714507256.328][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1714507256.328][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/0b/fg91wxcx2zz0rlg4xwpjl5080000gn/T/.org.chromium.Chromium.AIbf3w data:,
+[1714507258.229][WARNING]: This version of ChromeDriver has not been tested with Chrome version 124.
+[1714507258.246][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1714507258.484][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "124.0.6367.92",
+      "chrome": {
+         "chromedriverVersion": "123.0.6312.86 (9b72c47a053648d405376c5cf07999ed626728da-refs/branch-heads/6312@{#698})",
+         "userDataDir": "/var/folders/0b/fg91wxcx2zz0rlg4xwpjl5080000gn/T/.org.chromium.Chromium.AIbf3w"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:51131"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "4eb3d920a7a459b03d6a0e9add3a6f14"
+}
+[1714507258.664][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND MaximizeWindow {
+}
+[1714507258.664][INFO]: Waiting for pending navigations...
+[1714507258.675][INFO]: Done waiting for pending navigations. Status: ok
+[1714507259.138][INFO]: Waiting for pending navigations...
+[1714507259.141][INFO]: Done waiting for pending navigations. Status: ok
+[1714507259.141][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE MaximizeWindow {
+   "height": 972,
+   "width": 1920,
+   "x": 0,
+   "y": 25
+}
+[1714507259.148][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND SetTimeouts {
+   "implicit": 30000
+}
+[1714507259.150][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE SetTimeouts
+[1714507259.156][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND Navigate {
+   "url": "https://www.wikipedia.org/"
+}
+[1714507259.156][INFO]: Waiting for pending navigations...
+[1714507259.157][INFO]: Done waiting for pending navigations. Status: ok
+[1714507259.645][INFO]: Waiting for pending navigations...
+[1714507259.645][INFO]: Done waiting for pending navigations. Status: ok
+[1714507259.645][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE Navigate
+[1714507259.653][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND GetTitle {
+}
+[1714507259.653][INFO]: Waiting for pending navigations...
+[1714507259.653][INFO]: Done waiting for pending navigations. Status: ok
+[1714507260.901][INFO]: Waiting for pending navigations...
+[1714507260.967][INFO]: Done waiting for pending navigations. Status: ok
+[1714507260.967][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE GetTitle "Wikipedia"
+[1714507260.976][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND Navigate {
+   "url": "https://www.wikipedia.org/"
+}
+[1714507260.976][INFO]: Waiting for pending navigations...
+[1714507260.976][INFO]: Done waiting for pending navigations. Status: ok
+[1714507261.181][INFO]: Waiting for pending navigations...
+[1714507261.828][INFO]: Done waiting for pending navigations. Status: ok
+[1714507261.828][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE Navigate
+[1714507261.835][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".central\\-textlogo\\-wrapper"
+}
+[1714507261.835][INFO]: Waiting for pending navigations...
+[1714507261.836][INFO]: Done waiting for pending navigations. Status: ok
+[1714507261.853][INFO]: Waiting for pending navigations...
+[1714507261.854][INFO]: Done waiting for pending navigations. Status: ok
+[1714507261.854][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.06B2B25D27E6F22C69527505705F3D94.e.38"
+}
+[1714507261.860][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND GetElementText {
+   "id": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.06B2B25D27E6F22C69527505705F3D94.e.38"
+}
+[1714507261.861][INFO]: Waiting for pending navigations...
+[1714507261.861][INFO]: Done waiting for pending navigations. Status: ok
+[1714507261.882][INFO]: Waiting for pending navigations...
+[1714507261.883][INFO]: Done waiting for pending navigations. Status: ok
+[1714507261.883][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE GetElementText "Wikipedia\nThe Free Encyclopedia"
+[1714507261.891][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'Terms of Use')]"
+}
+[1714507261.891][INFO]: Waiting for pending navigations...
+[1714507261.892][INFO]: Done waiting for pending navigations. Status: ok
+[1714507261.904][INFO]: Waiting for pending navigations...
+[1714507261.905][INFO]: Done waiting for pending navigations. Status: ok
+[1714507261.905][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.06B2B25D27E6F22C69527505705F3D94.e.39"
+}
+[1714507261.910][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'Privacy Policy')]"
+}
+[1714507261.910][INFO]: Waiting for pending navigations...
+[1714507261.911][INFO]: Done waiting for pending navigations. Status: ok
+[1714507261.921][INFO]: Waiting for pending navigations...
+[1714507261.922][INFO]: Done waiting for pending navigations. Status: ok
+[1714507261.922][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.06B2B25D27E6F22C69527505705F3D94.e.40"
+}
+[1714507261.925][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND GetElementText {
+   "id": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.06B2B25D27E6F22C69527505705F3D94.e.39"
+}
+[1714507261.925][INFO]: Waiting for pending navigations...
+[1714507261.926][INFO]: Done waiting for pending navigations. Status: ok
+[1714507261.933][INFO]: Waiting for pending navigations...
+[1714507261.934][INFO]: Done waiting for pending navigations. Status: ok
+[1714507261.934][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE GetElementText "Terms of Use"
+[1714507261.936][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND GetElementText {
+   "id": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.06B2B25D27E6F22C69527505705F3D94.e.40"
+}
+[1714507261.936][INFO]: Waiting for pending navigations...
+[1714507261.937][INFO]: Done waiting for pending navigations. Status: ok
+[1714507261.944][INFO]: Waiting for pending navigations...
+[1714507261.944][INFO]: Done waiting for pending navigations. Status: ok
+[1714507261.944][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE GetElementText "Privacy Policy"
+[1714507261.949][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND Navigate {
+   "url": "https://www.wikipedia.org/"
+}
+[1714507261.949][INFO]: Waiting for pending navigations...
+[1714507261.950][INFO]: Done waiting for pending navigations. Status: ok
+[1714507262.027][INFO]: Waiting for pending navigations...
+[1714507262.642][INFO]: Done waiting for pending navigations. Status: ok
+[1714507262.642][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE Navigate
+[1714507262.649][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#searchInput"
+}
+[1714507262.649][INFO]: Waiting for pending navigations...
+[1714507262.650][INFO]: Done waiting for pending navigations. Status: ok
+[1714507262.664][INFO]: Waiting for pending navigations...
+[1714507262.664][INFO]: Done waiting for pending navigations. Status: ok
+[1714507262.665][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.D86718D7BFDCFB9669B57BB70C66A7F2.e.44"
+}
+[1714507262.682][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND TypeElement {
+   "id": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.D86718D7BFDCFB9669B57BB70C66A7F2.e.44",
+   "text": "apple",
+   "value": [ "a", "p", "p", "l", "e" ]
+}
+[1714507262.682][INFO]: Waiting for pending navigations...
+[1714507262.684][INFO]: Done waiting for pending navigations. Status: ok
+[1714507262.793][INFO]: Waiting for pending navigations...
+[1714507262.797][INFO]: Done waiting for pending navigations. Status: ok
+[1714507262.797][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE TypeElement
+[1714507262.804][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//h3[@class='suggestion-title' and contains(., 'Apple Inc.')]"
+}
+[1714507262.804][INFO]: Waiting for pending navigations...
+[1714507262.805][INFO]: Done waiting for pending navigations. Status: ok
+[1714507263.296][INFO]: Waiting for pending navigations...
+[1714507263.297][INFO]: Done waiting for pending navigations. Status: ok
+[1714507263.297][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.D86718D7BFDCFB9669B57BB70C66A7F2.e.64"
+}
+[1714507263.301][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND ClickElement {
+   "id": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.D86718D7BFDCFB9669B57BB70C66A7F2.e.64"
+}
+[1714507263.301][INFO]: Waiting for pending navigations...
+[1714507263.302][INFO]: Done waiting for pending navigations. Status: ok
+[1714507263.371][INFO]: Waiting for pending navigations...
+[1714507265.651][INFO]: Done waiting for pending navigations. Status: ok
+[1714507265.651][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE ClickElement
+[1714507265.679][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".infobox"
+}
+[1714507265.679][INFO]: Waiting for pending navigations...
+[1714507265.784][INFO]: Done waiting for pending navigations. Status: ok
+[1714507265.891][INFO]: Waiting for pending navigations...
+[1714507266.044][INFO]: Done waiting for pending navigations. Status: ok
+[1714507266.044][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.EE8FD426A2A1C4F65ED04D3E7F7EA490.e.114"
+}
+[1714507266.060][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND FindChildElement {
+   "id": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.EE8FD426A2A1C4F65ED04D3E7F7EA490.e.114",
+   "using": "xpath",
+   "value": ".//tr[th[contains(text(), 'Founders')]]"
+}
+[1714507266.060][INFO]: Waiting for pending navigations...
+[1714507266.071][INFO]: Done waiting for pending navigations. Status: ok
+[1714507266.095][INFO]: Waiting for pending navigations...
+[1714507266.096][INFO]: Done waiting for pending navigations. Status: ok
+[1714507266.096][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.EE8FD426A2A1C4F65ED04D3E7F7EA490.e.129"
+}
+[1714507266.102][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND FindChildElement {
+   "id": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.EE8FD426A2A1C4F65ED04D3E7F7EA490.e.129",
+   "using": "css selector",
+   "value": "td"
+}
+[1714507266.102][INFO]: Waiting for pending navigations...
+[1714507266.102][INFO]: Done waiting for pending navigations. Status: ok
+[1714507266.114][INFO]: Waiting for pending navigations...
+[1714507266.115][INFO]: Done waiting for pending navigations. Status: ok
+[1714507266.115][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.EE8FD426A2A1C4F65ED04D3E7F7EA490.e.130"
+}
+[1714507266.117][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND GetElementText {
+   "id": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.EE8FD426A2A1C4F65ED04D3E7F7EA490.e.130"
+}
+[1714507266.117][INFO]: Waiting for pending navigations...
+[1714507266.118][INFO]: Done waiting for pending navigations. Status: ok
+[1714507266.128][INFO]: Waiting for pending navigations...
+[1714507266.128][INFO]: Done waiting for pending navigations. Status: ok
+[1714507266.128][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE GetElementText "Steve Jobs\nSteve Wozniak\nRonald Wayne"
+[1714507266.133][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND Navigate {
+   "url": "https://www.wikipedia.org/"
+}
+[1714507266.133][INFO]: Waiting for pending navigations...
+[1714507266.134][INFO]: Done waiting for pending navigations. Status: ok
+[1714507266.236][INFO]: Waiting for pending navigations...
+[1714507266.803][INFO]: Done waiting for pending navigations. Status: ok
+[1714507266.804][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE Navigate
+[1714507266.815][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#searchInput"
+}
+[1714507266.815][INFO]: Waiting for pending navigations...
+[1714507266.816][INFO]: Done waiting for pending navigations. Status: ok
+[1714507266.845][INFO]: Waiting for pending navigations...
+[1714507266.846][INFO]: Done waiting for pending navigations. Status: ok
+[1714507266.846][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.E484C04D3823DDF6517B7B552A5B2F9B.e.134"
+}
+[1714507266.860][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND TypeElement {
+   "id": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.E484C04D3823DDF6517B7B552A5B2F9B.e.134",
+   "text": "microsoft",
+   "value": [ "m", "i", "c", "r", "o", "s", "o", "f", "t" ]
+}
+[1714507266.860][INFO]: Waiting for pending navigations...
+[1714507266.860][INFO]: Done waiting for pending navigations. Status: ok
+[1714507266.938][INFO]: Waiting for pending navigations...
+[1714507266.942][INFO]: Done waiting for pending navigations. Status: ok
+[1714507266.942][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE TypeElement
+[1714507266.946][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//h3[@class='suggestion-title' and contains(., 'Microsoft')]"
+}
+[1714507266.946][INFO]: Waiting for pending navigations...
+[1714507266.947][INFO]: Done waiting for pending navigations. Status: ok
+[1714507267.406][INFO]: Waiting for pending navigations...
+[1714507267.407][INFO]: Done waiting for pending navigations. Status: ok
+[1714507267.407][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.E484C04D3823DDF6517B7B552A5B2F9B.e.155"
+}
+[1714507268.417][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND ClickElement {
+   "id": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.E484C04D3823DDF6517B7B552A5B2F9B.e.155"
+}
+[1714507268.417][INFO]: Waiting for pending navigations...
+[1714507268.419][INFO]: Done waiting for pending navigations. Status: ok
+[1714507268.471][INFO]: Waiting for pending navigations...
+[1714507269.195][INFO]: Done waiting for pending navigations. Status: ok
+[1714507269.195][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE ClickElement
+[1714507269.204][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".infobox"
+}
+[1714507269.204][INFO]: Waiting for pending navigations...
+[1714507269.318][INFO]: Done waiting for pending navigations. Status: ok
+[1714507269.425][INFO]: Waiting for pending navigations...
+[1714507269.625][INFO]: Done waiting for pending navigations. Status: ok
+[1714507269.626][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.E4D8858FD0B35DA2D1D522CF13331B48.e.221"
+}
+[1714507269.632][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND FindChildElement {
+   "id": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.E4D8858FD0B35DA2D1D522CF13331B48.e.221",
+   "using": "xpath",
+   "value": ".//tr[th[contains(text(), 'Founders')]]"
+}
+[1714507269.633][INFO]: Waiting for pending navigations...
+[1714507269.663][INFO]: Done waiting for pending navigations. Status: ok
+[1714507269.682][INFO]: Waiting for pending navigations...
+[1714507269.684][INFO]: Done waiting for pending navigations. Status: ok
+[1714507269.684][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.E4D8858FD0B35DA2D1D522CF13331B48.e.230"
+}
+[1714507269.691][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND FindChildElement {
+   "id": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.E4D8858FD0B35DA2D1D522CF13331B48.e.230",
+   "using": "css selector",
+   "value": "td"
+}
+[1714507269.691][INFO]: Waiting for pending navigations...
+[1714507269.691][INFO]: Done waiting for pending navigations. Status: ok
+[1714507269.697][INFO]: Waiting for pending navigations...
+[1714507269.698][INFO]: Done waiting for pending navigations. Status: ok
+[1714507269.698][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.E4D8858FD0B35DA2D1D522CF13331B48.e.231"
+}
+[1714507269.703][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND GetElementText {
+   "id": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.E4D8858FD0B35DA2D1D522CF13331B48.e.231"
+}
+[1714507269.703][INFO]: Waiting for pending navigations...
+[1714507269.705][INFO]: Done waiting for pending navigations. Status: ok
+[1714507269.717][INFO]: Waiting for pending navigations...
+[1714507269.717][INFO]: Done waiting for pending navigations. Status: ok
+[1714507269.717][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE GetElementText "Bill Gates\nPaul Allen"
+[1714507269.723][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND FindChildElement {
+   "id": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.E4D8858FD0B35DA2D1D522CF13331B48.e.231",
+   "using": "link text",
+   "value": "Bill Gates"
+}
+[1714507269.723][INFO]: Waiting for pending navigations...
+[1714507269.724][INFO]: Done waiting for pending navigations. Status: ok
+[1714507269.744][INFO]: Waiting for pending navigations...
+[1714507269.745][INFO]: Done waiting for pending navigations. Status: ok
+[1714507269.745][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.E4D8858FD0B35DA2D1D522CF13331B48.e.232"
+}
+[1714507269.751][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND ClickElement {
+   "id": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.E4D8858FD0B35DA2D1D522CF13331B48.e.232"
+}
+[1714507269.751][INFO]: Waiting for pending navigations...
+[1714507269.752][INFO]: Done waiting for pending navigations. Status: ok
+[1714507269.974][INFO]: Waiting for pending navigations...
+[1714507271.156][INFO]: Done waiting for pending navigations. Status: ok
+[1714507271.156][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE ClickElement
+[1714507271.161][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND GetUrl {
+}
+[1714507271.161][INFO]: Waiting for pending navigations...
+[1714507271.213][INFO]: Done waiting for pending navigations. Status: ok
+[1714507271.239][INFO]: Waiting for pending navigations...
+[1714507271.296][INFO]: Done waiting for pending navigations. Status: ok
+[1714507271.296][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE GetUrl "https://en.wikipedia.org/wiki/Bill_Gates"
+[1714507271.303][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND Navigate {
+   "url": "https://en.wikipedia.org/"
+}
+[1714507271.303][INFO]: Waiting for pending navigations...
+[1714507271.330][INFO]: Done waiting for pending navigations. Status: ok
+[1714507271.526][INFO]: Waiting for pending navigations...
+[1714507271.526][INFO]: Done waiting for pending navigations. Status: ok
+[1714507271.526][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE Navigate
+[1714507271.585][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#vector\\-main\\-menu\\-dropdown"
+}
+[1714507271.586][INFO]: Waiting for pending navigations...
+[1714507271.912][INFO]: Done waiting for pending navigations. Status: ok
+[1714507271.943][INFO]: Waiting for pending navigations...
+[1714507271.946][INFO]: Done waiting for pending navigations. Status: ok
+[1714507271.946][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.BA4F7B0A3BCAD31B7BD641FB2A0242EA.e.338"
+}
+[1714507271.951][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND ClickElement {
+   "id": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.BA4F7B0A3BCAD31B7BD641FB2A0242EA.e.338"
+}
+[1714507271.952][INFO]: Waiting for pending navigations...
+[1714507271.954][INFO]: Done waiting for pending navigations. Status: ok
+[1714507272.029][INFO]: Waiting for pending navigations...
+[1714507272.035][INFO]: Done waiting for pending navigations. Status: ok
+[1714507272.035][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE ClickElement
+[1714507272.041][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND FindChildElement {
+   "id": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.BA4F7B0A3BCAD31B7BD641FB2A0242EA.e.338",
+   "using": "link text",
+   "value": "About Wikipedia"
+}
+[1714507272.041][INFO]: Waiting for pending navigations...
+[1714507272.055][INFO]: Done waiting for pending navigations. Status: ok
+[1714507272.114][INFO]: Waiting for pending navigations...
+[1714507272.134][INFO]: Done waiting for pending navigations. Status: ok
+[1714507272.134][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.BA4F7B0A3BCAD31B7BD641FB2A0242EA.e.423"
+}
+[1714507272.144][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND ClickElement {
+   "id": "f.C9A63F18BF14ADCA082608EADD4FA96B.d.BA4F7B0A3BCAD31B7BD641FB2A0242EA.e.423"
+}
+[1714507272.144][INFO]: Waiting for pending navigations...
+[1714507272.151][INFO]: Done waiting for pending navigations. Status: ok
+[1714507272.214][INFO]: Waiting for pending navigations...
+[1714507272.704][INFO]: Done waiting for pending navigations. Status: ok
+[1714507272.704][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE ClickElement
+[1714507272.710][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND GetUrl {
+}
+[1714507272.710][INFO]: Waiting for pending navigations...
+[1714507272.734][INFO]: Done waiting for pending navigations. Status: ok
+[1714507272.801][INFO]: Waiting for pending navigations...
+[1714507272.807][INFO]: Done waiting for pending navigations. Status: ok
+[1714507272.807][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE GetUrl "https://en.wikipedia.org/wiki/Wikipedia:About"
+[1714507272.813][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] COMMAND CloseWindow {
+}
+[1714507273.247][INFO]: [4eb3d920a7a459b03d6a0e9add3a6f14] RESPONSE CloseWindow [  ]
